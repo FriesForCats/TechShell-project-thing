@@ -57,7 +57,7 @@ void parseInput(char *input, command *cmd){
     // sets all struct values back to zero
     int argCount = 0;
     cmd->inputFile = NULL;
-    cmd->inputFile = NULL;
+    cmd->outputFile = NULL;
 
     input[strcspn(input, "\n")] = '\0';
     char *src = input;
